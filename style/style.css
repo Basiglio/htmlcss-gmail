@@ -1,0 +1,60 @@
+/* impostazioni layout */
+*{
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+
+}
+body{
+  margin: 10% 10%;
+  background-image: url("../img/wood.jpg");
+}
+/* /impostazioni layout */
+
+/* header */
+#logog{
+  vertical-align: middle;
+}
+h1{
+  display: inline;
+}
+/* /header */
+
+/* horizontal rule */
+hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-color: white;
+}
+/* /horizontal rule */
+
+/* main */
+h2{
+  margin-top: 15px;
+}
+#number{
+  background-color: tomato;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.mail{
+  background-color: white;
+  border: 2px solid black;
+}
+p{
+  display: inline-block;
+}
+/* /main */
+
+/* foot */
+footer{
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+/* /foot */
